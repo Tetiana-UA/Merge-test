@@ -1,0 +1,157 @@
+    1  git --version
+    2  git config --global user.name Tetiana Budiakova
+    3  git config --global -l
+    4  git config --global user.name "Tetiana Budiakova"
+    5  git config --global user.email "tetianabudiakova@gmail.com"
+    6  git config --global -l
+    7  git init
+    8  git add Song.txt
+    9  ls -al
+   10  rm -rf .git
+   11  ls -al
+   12  cd ~/Documents
+   13  pwd
+   14  mkdir Git
+   15  cd Git
+   16  pwd
+   17  mkdir git_intro
+   18  cd git_intro
+   19  ls -al ~/Downloads
+   20  pwd
+   21  git init
+   22  ls _al
+   23  ls -al
+   24  ls -al
+   25  git add picture.png
+   26  git commit -m "Added photo"
+   27  git status
+   28  ls
+   29  git add Picture.png
+   30   git commit -m "Added photo"
+   31  git branch -M main
+   32  git remove -v
+   33  git remote -v
+   34  git remote add origin git@github.com:Tetiana-UA/git_intro.git
+   35  git push -u origin main
+   36  cd ..
+   37  git clone git@github.com:Tetiana-UA/git-branch.git
+   38  git remote -v
+   39  git remote add origin git@github.com:Tetiana-UA/git-branch.git
+   40  pwd
+   41  cd ~
+   42  pwd
+   43  git clone git@github.com:Tetiana-UA/git-branch.git
+   44  git checkout - b gitignore
+   45  cd git-branch
+   46  git checkout - b gitignore
+   47  [200~git checkout - b gitignore
+   48  git checkout -b gitignore
+   49  curl https://github.com/aliaskov/bashscripts/blob/master/.gitignore -o gitignore
+   50  cat gitignore
+   51  ls -al
+   52  mv gitignore .gitignore
+   53  pwd
+   54  git checkout gitignore
+   55  git add .gitignore
+   56  git commit -m "Add .gitignore"
+   57  git branch M main
+   58  git push -u origin main
+   59  git branch
+   60  git status
+   61  git push -u origin gitignore
+   62  pwd
+   63  git clone git@github.com:Tetiana-UA/Fork-Test.git
+   64  ls -al
+   65  git branch -v
+   66  pwd
+   67  git clone git@github.com:Tetiana-UA/Fork-Test.git
+   68  cd Fork-Test
+   69  git branch -a
+   70  git checkout -b Budiakova
+   71  vi Budiakova.txt
+   72  git add Budiakova.txt
+   73  git commit -m "Add file Budiakova.txt"
+   74  git push
+   75  git push --set-upstream origin Budiakova
+   76  git push
+   77  git checkout Develop
+   78  git branch
+   79  git branch - d Budiakova
+   80  git branch
+   81  [200~git branch - d Budiakova
+   82  git branch -d Budiakova
+   83  pwd
+   84  git branch
+   85  git branch -b TBudiakova
+   86  git checkout -b TBudiakova
+   87  vi TBudiakova
+   88  git add TBudiakova
+   89  git commit -m "Add file TBudiakova"
+   90  git push
+   91  git push --set-upstream origin TBudiakova
+   92  git push
+   93  date >> TBudiakova.txt
+   94  cat TBudiakova
+   95  cat TBudiakova.txt
+   96  date >> TBudiakova
+   97  cat Budiakova
+   98  git status
+   99  git commit -am "Add date"
+  100  git push
+  101  git pwd
+  102  git branch
+  103  git checkout Develop
+  104  git pull
+  105  git log --oneline | wc -l
+  106  git checkout TBudiakova
+  107  git rebase Develop
+  108  git rebase --abort
+  109  pwd
+  110  cd ..
+  111  pwd
+  112  git clone git@github.com:Tetiana-UA/learning_git.git
+  113  git branch
+  114  cd learning_git.git
+  115  git branch -r
+  116  cd learning_git
+  117  pwd
+  118  git branch -r
+  119  ls -la
+  120  find . -type d -name "040926-ptm"
+  121  mkdir 040926-ptm
+  122  touch Tetiana.txt
+  123  rm Tetiana.txt
+  124  cd 040926-ptm
+  125  ls -al
+  126  touch Tetiana.txt
+  127  git add Tetiana.txt
+  128  git commit -m "Add file Tetiana.txt"
+  129  git push
+  130  pwd
+  131  git clone git@github.com:Tetiana-UA/Merge-test.git
+  132  cd Merge-test
+  133  git branch
+  134  git status
+  135  touch .gitignore
+  136  git checkout -b feature
+  137  git branch
+  138  git status
+  139  ls
+  140  echo "This is a practice project for learning Git merge and amend" >> README.md
+  141  cat README.md
+  142  echo "__pycache__/" >> .gitignore
+  143  cat .gitignore
+  144  git status
+  145  git add .
+  146  git status
+  147  git commit -m "Update README.md and create .gitignore"
+  148  git branch
+  149  git push -u origin feature
+  150  git commit -amend -m "Update README.md and create .gitignore + amend"
+  151  git log --online
+  152  git log
+  153  git commit --amend -m "Update README.md and create .gitignore + amend"
+  154  git log --oneline
+  155  git checkout main
+  156  git merge feature
+  157  history > history.txt
